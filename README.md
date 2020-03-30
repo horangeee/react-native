@@ -42,7 +42,7 @@
       - componentDidUpdate
       - componentWillUnmount
       - componentDidCatch
-    - [ ]호출 순서도
+    - [ ] 호출 순서도
 - 참고할 만한 리소스
   - [Material Design](https://material.io)
 
@@ -64,7 +64,7 @@
       - 전역 데이터를 Context에 저장한 후, 필요한 컴포넌트에서 해당 데이터를 불러와 사용
         - Provider
         - Consumer
-        - [ ]호출 순서도
+        - [ ] 호출 순서도
     - useEffect
   - [Flexbox](https://developer.mozilla.org/ko/docs/Web/CSS/CSS_Flexible_Box_Layout/Flexbox의_기본_개념): React Native는 기본적으로 flexbox를 사용하여 화면 레이아웃을 설정
 - 참고할 만한 plugin
