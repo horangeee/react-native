@@ -40,9 +40,9 @@ const Upload = ({navigation}: Props) => {
       onEndReached={() => {
         setFeedList([...feedList, ...getMyFeed(24)]);
       }}
-      onPress={() => {
-        navigation.navigate('FeedListOnly');
-      }}
+      // onPress={() => {
+      //   navigation.navigate('FeedListOnly');
+      // }}
     />
   );
 };
