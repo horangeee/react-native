@@ -116,6 +116,13 @@
 - 참고할 만한 plugin
   - [React Navigation](https://reactnavigation.org/docs/getting-started/)
 
+### 배포
+
+- iOS
+  - xcode를 사용
+  - signing 변경 및 developer 등록
+  - 기기 연결 후, Build & Run: `dyld_shared_cache_extract_dylibs failed`이 발생하면, `/Users/1000jaeh/Library/Developer/Xcode/iOS DeviceSupport` 아래 Directory 삭제
+
 ## Reference
 
 - [저자 블로그](https://dev-yakuza.github.io/ko/react-native/)
