@@ -83,7 +83,6 @@
   - IOS의 cocoapod 사용법
   - 기기별 권한 요청에 대한 설정 및 처리(예를들면, ios의 위치정보 권한 요청)
 - 필요한 개념
-
   - XMLHttpRequest(XHR), 이벤트 기반 모델(Event based Model): 입출력과 상태(State)를 모두 하나의 객체로 관리 -> 여기서 상태는 이벤트를 통해 추적
   - Await / Async
   - Promise 기반 비동기 방식
@@ -93,14 +92,32 @@
     - Axios
   - React
     - FlatList의 "당겨서 갱신하기(Pull to refresh)" 기능 -> API와 연동해서 동작하는 방법
-
 - 참고할 만한 plugin
   - Geolocation API(위치 정보 API): react-native-geolocation-service
   - [React Native Community](https://github.com/react-native-community)
   - [Awesome React Native](https://github.com/jondot/awesome-react-native)
   - [Awesome React Native UI](https://github.com/madhavanmalolan/awesome-reactnative-ui)
 
+### SNSApp
+
+- 필요한 개념
+  - Typescript의 Type에 대한 개념
+  - React
+    - Navigation을 이용한 화면 전환
+    - 하단 Main Tab
+    - 격자형태의 이미지 목록: ScrollView를 통해 무한 스크롤 조회 구현
+    - 상단의 횡스크롤 목록 + 하단의 세로 목록 조합 + 이미지부분은 횡스크롤
+    - 상단 고정 검색창
+    - 목록(또는 이미지)를 탭할 경우, 상세 화면으로 이동하고 상세화면은 목록형으로 구성
+    - 상단 탭으로 구성된 Notification 목록 형태
+    - 이미지(아바타) + 내용 + 이미지로 구성된 아이템 목록
+    - 스크롤시, 탭바는 상단에서 사라지지 않고, 고정되는 형태의 목록
+    - Drawer로 설정 메뉴 및 로그아웃 호출
+- 참고할 만한 plugin
+  - [React Navigation]:(https://reactnavigation.org/docs/getting-started/)
+
 ## Reference
 
+- [저자 블로그](https://dev-yakuza.github.io/ko/react-native/)
 - [책: 스무디 한 잔 마시며 끝내는 React Native React Native로 실전 스마트폰 앱 만들기](http://www.kyobobook.co.kr/product/detailViewKor.laf?ejkGb=KOR&mallGb=KOR&barcode=9791190014625&orderClick=LEa&Kc=)
 - [책 예제: 스무디 한 잔 마시며 끝내는 React Native React Native로 실전 스마트폰 앱 만들기](https://github.com/bjpublic/Reactnative)
