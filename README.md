@@ -105,7 +105,7 @@
   - React
     - Navigation을 이용한 화면 전환
     - 하단 Main Tab
-    - 격자형태의 이미지 목록: ScrollView를 통해 무한 스크롤 조회 구현
+    - 격자형태의 이미지 목록: ScrollView를 통해 무한 스크롤 조회 구현(Paging을 어떻게 조정하는가)
     - 상단의 횡스크롤 목록 + 하단의 세로 목록 조합 + 이미지부분은 횡스크롤
     - 상단 고정 검색창
     - 목록(또는 이미지)를 탭할 경우, 상세 화면으로 이동하고 상세화면은 목록형으로 구성
@@ -114,7 +114,7 @@
     - 스크롤시, 탭바는 상단에서 사라지지 않고, 고정되는 형태의 목록
     - Drawer로 설정 메뉴 및 로그아웃 호출
 - 참고할 만한 plugin
-  - [React Navigation]:(https://reactnavigation.org/docs/getting-started/)
+  - [React Navigation](https://reactnavigation.org/docs/getting-started/)
 
 ## Reference
 
